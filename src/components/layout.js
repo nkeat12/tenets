@@ -11,7 +11,8 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
-
+import "@fontsource/libre-franklin/500.css" // Weight 500.
+import "@fontsource/libre-franklin/900-italic.css" // Loads the italic variant.
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -34,14 +35,14 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer
+        <footer class="me"
           style={{
             marginTop: `2rem`,
           }}
         >
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, Built in LA.
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          
         </footer>
       </div>
     </>
