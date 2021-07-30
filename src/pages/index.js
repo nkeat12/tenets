@@ -8,7 +8,7 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1 class="lg">Tenets<span class="aa">.</span></h1>
+    <h1 class="lg">Tenets<span class="aa">vc</span></h1>
 <h1 class="sub">the next generation of builders</h1>
     
 

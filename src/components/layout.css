@@ -206,7 +206,8 @@ button:-moz-focusring {
     right: 0;
 }
 .aa {
-  color: #ee2d2b;
+    color: #ee2d2b;
+    font-size: 53px;
 }
 .sub {
 text-align: center;
